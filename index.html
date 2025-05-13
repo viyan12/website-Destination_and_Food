@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore Indonesia - Wisata & Kuliner</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <h1>Explore Indonesia</h1>
+            <p>Discover the beauty of tourism and culinary in Indonesia</p>
+        </div>
+    </header>
+
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href="#destinations">Destinasi Wisata</a></li>
+                <li><a href="#foods">Makanan Khas</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="container">
+        <section id="destinations" class="section">
+            <h2>Destinasi Wisata Populer</h2>
+            <div class="grid-container" id="destination-container">
+                <!-- Content will be loaded from JavaScript -->
+            </div>
+        </section>
+
+        <section id="foods" class="section">
+            <h2>Makanan Khas Indonesia</h2>
+            <div class="grid-container" id="food-container">
+                <!-- Content will be loaded from JavaScript -->
+            </div>
+        </section>
+
+        <section id="about" class="section">
+            <h2>About</h2>
+            <p>Website ini dibuat untuk memperkenalkan keindahan wisata dan kekayaan kuliner Indonesia kepada dunia.</p>
+            <p>Kami berkomitmen untuk menyajikan informasi akurat dan terupdate tentang berbagai destinasi dan makanan khas Indonesia.</p>
+        </section>
+
+        <!--Contact-->
+        <section id="contact" class="section">
+            <h2>Contact Us</h2>
+            <p>If you have any questions or want to know more about destination and food of Indonesia, feel free to reach out to us!</p>
+            <form class="contact-form">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="submit-button">Send Message</button>
+            </form>
+            </div>
+        </section>
+
+    </main>
+
+    <!--Contact-->
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Explore Indonesia. All rights reserved.</p>
+            <div class="social-links">
+                <a href="https://www.facebook.com/share/1HRwvSbF8Z/"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com/viiyan_030?igsh=dHRzdjZ1YTEwdW1s"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
